@@ -45,8 +45,7 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
       - deploy:
          requires:
           - build-and-push
-view rawcongif hosted with ❤ by GitHub
